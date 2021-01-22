@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 
 const PORT = process.env.PORT || 8080;
 
@@ -12,6 +13,12 @@ app.use(express.json());
 app.get("/api/config", (req, res) => {
     res.send("This is where my page will live.");
 });
+
+//View Routes
+
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "index.html"))
+})
 
 app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`);
