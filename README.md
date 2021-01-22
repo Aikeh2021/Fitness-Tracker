@@ -1,10 +1,11 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Fitness-Tracker
 
 ## License 
 
 MIT License
 
-Copyright (c) 2021 Ashley Ikeh
+Copyright (c) 2021 [Ashley Ikeh](https://github.com/Aikeh2021)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
