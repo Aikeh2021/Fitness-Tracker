@@ -7,6 +7,7 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 //API Test route
 
@@ -17,7 +18,7 @@ app.get("/api/config", (req, res) => {
 //View Routes
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "index.html"))
+    res.sendFile(path.join(__dirname, "/index.html"))
 })
 
 app.listen(PORT, () => {
