@@ -18,8 +18,12 @@ app.get("/api/config", (req, res) => {
 //View Routes
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/index.html"))
-})
+    res.sendFile(path.join(__dirname, "public/index.html"));
+});
+
+app.get("/exercise", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/exercise.html"));
+});
 
 app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`);
