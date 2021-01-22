@@ -11,7 +11,9 @@
 [License](#license)
 [Credits](#credits)
 
+## Installation
 
+If you would like to use the Fitness Tracker, please [click here](https://sheltered-lowlands-33096.herokuapp.com). If you would like to view the github repository for this application, please [click here](https://github.com/Aikeh2021/Fitness-Tracker).
 
 ## License 
 
