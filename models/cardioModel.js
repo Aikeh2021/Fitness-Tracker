@@ -2,10 +2,10 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-const ResistanceSchema = new Schema ({
+const CardioSchema = new Schema ({
 
 });
 
-const Resistance = mongoose.model("Resistance", ResistanceSchema);
+const Cardio = mongoose.model("Cardio", CardioSchema);
 
-module.exports = Resistance;
+module.exports = Cardio;

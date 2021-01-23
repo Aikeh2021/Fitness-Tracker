@@ -2,10 +2,21 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-const CardioSchema = new Schema ({
-    
+const ResistanceSchema = new Schema ({
+    type: {
+        type: {String, default: 'resistance'}
+    },
+    name: {
+        type: String,
+        trim: true,
+        required: true
+    },
+    duration: {
+        type: Number,
+        required: true
+    }
 });
 
-const Cardio = mongoose.model("Cardio", CardioSchema);
+const Resistance = mongoose.model("Resistance", ResistanceSchema);
 
-module.exports = Cardio;
+module.exports = Resistance;
