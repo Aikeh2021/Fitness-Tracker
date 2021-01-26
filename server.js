@@ -41,6 +41,11 @@ app.get("/stats", (req, res) => {
     res.sendFile(path.join(__dirname, "public/stats.html"));
 });
 
+
+//API Routes
+
+
+
 app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`);
 });
