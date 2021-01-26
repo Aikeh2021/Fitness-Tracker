@@ -5,8 +5,9 @@ const mongoose = require('mongoose');
 
 const PORT = process.env.PORT || 8080;
 
-const Cardio = require("./models/cardioModel.js");
-const Resistance = require("./models/resistanceModel.js");
+const db = require("./models");
+// const Cardio = require("./models/cardioModel.js");
+// const Resistance = require("./models/resistanceModel.js");
 
 const app = express();
 
@@ -44,7 +45,9 @@ app.get("/stats", (req, res) => {
 
 //API Routes
 
+app.post("/api/workouts", (req, res) => {
 
+})
 
 app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`);
