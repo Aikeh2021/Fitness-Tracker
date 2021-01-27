@@ -36,9 +36,23 @@ router.get("/api/workouts", (req, res) => {
 
 
 // router.get("/api/workouts/range",)
+// Workout.workouts.aggregate( [
+
+// ])
 
 
-
+// Workout.workouts.aggregate( [
+//     {
+//       $addFields: {
+//         totalHomework: { $sum: "$weight" } ,
+//         totalQuiz: { $sum: "$quiz" }
+//       }
+//     },
+//     {
+//       $addFields: { combinedWeight:
+//         { $add: [ "$totalHomework", "$totalQuiz", "$extraCredit" ] } }
+//     }
+//  ] )
 
 
 module.exports = router;
