@@ -18,6 +18,12 @@ useUnifiedTopology: true,
 useFindAndModify: false,
 useCreateIndex: true  });
 
+const connection = mongoose.connection;
+
+connection.on("connected", () => {
+    console.log("Mongoose is connected.")
+});
+
 //Routes
 app.use(require("./Routes/api"));
 app.use(require("./Routes/view"));
