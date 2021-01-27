@@ -34,11 +34,10 @@ const WorkoutSchema = new Schema ({
             },
             sets: {
                 type: Number
-            },
-            toJSON: {
-                virtuals: true
             }
-
+        }, {
+            toJSON: { virtuals: true },
+            toObject: { virtuals: true }
         }
     ]
 
