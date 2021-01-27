@@ -2,18 +2,26 @@
 
 # Fitness-Tracker
 
+Getting in shape is no easy feat. Let us help you! With the Fitness Tracker, you can enter data about the exercises you performed in a workout to keep track of how much you've squatted, run, pressed, and lifted. Nothing motivates a new gym goer more than seeing a summary of the activity they just performed. Science tells us that one change to implement when wanting to lead a healthier lifesyle is to get at least 30 minutes of activity per day. With the new Fitness Tracker application, you can track just that and more!
 
 
 ## Contents
 
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Credits](#credits)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Credits](#credits)
 
 ## Installation
 
+![fitness-tracker-homepage](assets/fitness-tracker-homepage.png)
+
 If you would like to use the Fitness Tracker, please [click here](https://sheltered-lowlands-33096.herokuapp.com). If you would like to view the github repository for this application, please [click here](https://github.com/Aikeh2021/Fitness-Tracker).
+
+## Usage
+
+In order to use the website, create a New Workout. Choose an exercise type and then enter the details of the first exercise you complete during your workout. Once you have create the first exercise of your workout, you can continue the workout, making sure to add the details of each succeeding exercise performed. When you have completed the workout, you can navigate back to the home page to see details about your entire workout.
+
 
 ## License 
 
