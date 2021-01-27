@@ -46,3 +46,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## Credits
+
+* [create() Method Mongoose](https://masteringjs.io/tutorials/mongoose/create)
+* [$addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/)
+* [How Sort By Data](https://medium.com/@jeanjacquesbagui/in-mongoose-sort-by-date-node-js-4dfcba254110)
